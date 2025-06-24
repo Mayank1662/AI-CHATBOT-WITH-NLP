@@ -1,0 +1,14 @@
+ What it does:
+Loads spaCy NLP model (en_core_web_md)
+
+Loads the intents.json file which defines:
+
+User message patterns
+
+Predefined responses
+
+Uses vector similarity to match user input to known intents
+
+Replies with a random response for the best-matched intent
+
+If nothing matches (below threshold), falls back with a generic message
